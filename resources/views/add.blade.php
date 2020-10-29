@@ -16,21 +16,21 @@
         @csrf
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name">
+                <input type="text" class="form-control" name="name" placeholder="Enter name">
 
             </div>
             <div class="form-group">
               <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter email">
+              <input type="email" class="form-control" name="email" placeholder="Enter email">
 
             </div>
             <div class="form-group">
               <label for="dob">Date of Birth:</label>
-              <input type="date" class="form-control" id="dob">
+              <input type="date" class="form-control" name="dob">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Salary:</label>
-                <input type="number" class="form-control" id="salary">
+                <label for="salary">Salary:</label>
+                <input type="number" class="form-control" name="salary">
               </div>
             <div class="form-check">
                 <label for="gender">Gender:</label>
