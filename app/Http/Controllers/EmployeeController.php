@@ -10,4 +10,9 @@ class EmployeeController extends Controller
     {
         return view('add');
     }
+
+    public function add( Request $req )
+    {
+        
+    }
 }
