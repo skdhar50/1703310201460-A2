@@ -47,11 +47,6 @@
                 <label for="gender">Status:</label>
                 <input class="form-check-input" type="checkbox" name="active" id="active" value="active">
                 <label class="form-check-label" for="active">
-                  Active
-                </label>
-                <input class="form-check-input" type="checkbox" name="female" id="female" value="female">
-                <label class="form-check-label" for="female">
-                  Inactive
                 </label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
